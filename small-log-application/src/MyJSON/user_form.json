@@ -1,0 +1,26 @@
+[{
+    "key": "user_name",
+    "title": "User Name",
+    "required": true,
+    "description": "Please enter the user name",
+    "type": "input",
+    "defaultValue": "New User Name",
+    "status": "active"
+  },
+  {
+    "key": "user_pwd",
+    "title": "Password",
+    "required": true,
+    "description": "Please enter the password",
+    "type": "password",
+    "status": "active"
+  },
+  {
+    "key": "user_pwd_confirm",
+    "title": "Confirm Password",
+    "required": true,
+    "description": "Please repeat the password",
+    "type": "password",
+    "status": "active"
+  }
+]

@@ -1,0 +1,51 @@
+[{
+    "key": "product_title",
+    "title": "Product Title",
+    "required": true,
+    "description": "Please enter the product title",
+    "type": "input",
+    "defaultValue": "New Product",
+    "status": "active"
+  },
+  {
+    "key": "product_category",
+    "title": "Product Category",
+    "required": true,
+    "description": "Please choose the product category",
+    "type": "dropdown",
+    "options": ["smartphones", "fragrances", "laptops"],
+    "status": "active"
+  },
+  {
+    "key": "product_description",
+    "title": "Product Description",
+    "required": false,
+    "description": "Please enter the product description",
+    "type": "textbox",
+    "status": "active"
+  },
+  {
+    "key": "product_image",
+    "title": "Product Image",
+    "required": false,
+    "description": "Please enter the product image URL",
+    "type": "input",
+    "status": "active"
+  },
+  {
+    "key": "product_brand",
+    "title": "Product Brand",
+    "required": true,
+    "description": "Please enter the product brand",
+    "type": "input",
+    "status": "inactive"
+  },
+  {
+    "key": "product_price",
+    "title": "Product Price",
+    "description": "Please enter the product price",
+    "type": "input",
+    "defaultValue": 42.00,
+    "status": "active"
+  }
+]
